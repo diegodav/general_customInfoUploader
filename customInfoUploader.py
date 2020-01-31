@@ -13,9 +13,6 @@
 #
 # It then organizes the data into dictionaries, and uploads it to each subject's Custom Info field on flywheel.
 #
-# *NOTE: The user is required to fill in the name of the dictionary, and the name of the project they would like to upload to.
-# *NOTE: I have added comments next to the fields that require user replacement.
-#
 # The script can be called in the terminal by doing: python customInfoUploader.py -d path/to/CSV -p name_of_project -n dict_name
 #
 # *NOTE: Prior to uploading, please sign into a flywheel session in your environment. See here for instructions: https://flywheel-io.github.io/core/branches/master/python/getting_started.html
