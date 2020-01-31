@@ -1,4 +1,4 @@
-# General Custom Info Uploader
+# General Custom Info To Flywheel Uploader
 
 ### This script takes as input a CSV file with the following characteristics:
 #### 1. No Protected Health Information (PHI) in the file
