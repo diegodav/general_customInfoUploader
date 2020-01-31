@@ -8,7 +8,6 @@
 # 
 ### It then organizes the data into dictionaries, and uploads it to each subject's Custom Info field on flywheel. 
 # 
-# 
 ### The script can be called in the terminal by doing: 
 #### ```python customInfoUploader.py -d path/to/CSV -p name_of_project -n dict_name``` 
 # 
