@@ -11,7 +11,7 @@
 ### The script can be called in the terminal by doing: 
 ##### ```python customInfoUploader.py -d path/to/CSV -p name_of_project -n dict_name``` 
 # 
-### For example, to upload a csv called "flavortown.csv" to my "GUY_FIERI" project on flywheel as a custom field called "recipes" I would do:
+### For example, to upload data in a csv called "flavortown.csv" to my "GUY_FIERI" project on flywheel as a custom field called "recipes" I would do:
 ##### ```python customInfoUploader.py -d flavortown.csv -p GUY_FIERI -n recipes```
 # 
 ### *NOTE: Prior to uploading, please sign into a flywheel session in your environment. See here for instructions: https://flywheel-io.github.io/core/branches/master/python/getting_started.html
