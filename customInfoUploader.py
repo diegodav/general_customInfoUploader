@@ -9,7 +9,6 @@
 # 1. No Protected Health Information (PHI) in the file
 # 2. All columns are named
 # 3. The subject ID column is named "bblid"
-# 4. All data is numeric (i.e. 1s and 0s)
 #
 # It then organizes the data into dictionaries, and uploads it to each subject's Custom Info field on flywheel.
 #
@@ -60,7 +59,7 @@ def iter_replace_dict_nans(input_dict):
     for key, value in input_dict.items():
         if isinstance(value, dict):
             iter_replace_dict_nans(value)
-        elif math.isnan(value):
+        elif pd.isna(value):
             input_dict[key] = None
 iter_replace_dict_nans(fullDict)
 
